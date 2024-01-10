@@ -5,6 +5,7 @@ jobs:
   debug:
     name: Debug
     runs-on: ubuntu-latest
+    environment: TestEnv
 
     steps:
     - name: Check out code
